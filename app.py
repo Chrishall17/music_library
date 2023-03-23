@@ -35,7 +35,7 @@ class Application():
             print("")
             print("Here is the list of albums:")
             for album in albums:
-                print(album)
+                print(f"* {album.id} - {album.title}")
 
 
 if __name__ == '__main__':
